@@ -1,234 +1,78 @@
-2018-05-09 11:55:25,948 INFO o.a.j.u.JMeterUtils: Setting Locale to en_GB
-2018-05-09 11:55:25,975 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2018-05-09 11:55:25,979 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2018-05-09 11:55:25,988 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
-2018-05-09 11:55:25,989 INFO o.a.j.JMeter: Version 3.2 r1790748
-2018-05-09 11:55:25,989 INFO o.a.j.JMeter: java.version=10
-2018-05-09 11:55:25,989 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2018-05-09 11:55:25,989 INFO o.a.j.JMeter: os.name=Windows 10
-2018-05-09 11:55:25,989 INFO o.a.j.JMeter: os.arch=amd64
-2018-05-09 11:55:25,989 INFO o.a.j.JMeter: os.version=10.0
-2018-05-09 11:55:25,989 INFO o.a.j.JMeter: file.encoding=Cp1252
-2018-05-09 11:55:25,989 INFO o.a.j.JMeter: Max memory     =4259315712
-2018-05-09 11:55:25,989 INFO o.a.j.JMeter: Available Processors =4
-2018-05-09 11:55:26,002 INFO o.a.j.JMeter: Default Locale=English (United Kingdom)
-2018-05-09 11:55:26,002 INFO o.a.j.JMeter: JMeter  Locale=English (United Kingdom)
-2018-05-09 11:55:26,002 INFO o.a.j.JMeter: JMeterHome=C:\Users\svasileva\Documents\_PassItOns\Jmeter\apache-jmeter-3.2\apache-jmeter-3.2
-2018-05-09 11:55:26,002 INFO o.a.j.JMeter: user.dir  =C:\Users\svasileva\Documents\_PassItOns\Jmeter\apache-jmeter-3.2\apache-jmeter-3.2\bin
-2018-05-09 11:55:26,003 INFO o.a.j.JMeter: PWD       =C:\Users\svasileva\Documents\_PassItOns\Jmeter\apache-jmeter-3.2\apache-jmeter-3.2\bin
-2018-05-09 11:55:26,004 INFO o.a.j.JMeter: IP: 172.18.53.28 Name: EN719073 FullName: EN719073.endava.net
-2018-05-09 11:55:26,314 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform]
-2018-05-09 11:55:26,320 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2018-05-09 11:55:26,727 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2018-05-09 11:55:26,728 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2018-05-09 11:55:27,624 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.assertions.BSFAssertion
-2018-05-09 11:55:28,029 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.extractor.BSFPostProcessor
-2018-05-09 11:55:28,078 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.modifiers.BSFPreProcessor
-2018-05-09 11:55:28,113 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-05-09 11:55:28,113 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-05-09 11:55:28,113 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-05-09 11:55:28,113 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-05-09 11:55:28,113 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2018-05-09 11:55:28,114 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2018-05-09 11:55:28,633 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
-2018-05-09 11:55:28,634 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\svasileva\Documents\_PassItOns\Jmeter\apache-jmeter-3.2\apache-jmeter-3.2\bin\proxyserver.jks
-2018-05-09 11:55:28,844 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler
-2018-05-09 11:55:28,909 INFO o.a.j.s.FileServer: Default base='C:\Users\svasileva\Documents\_PassItOns\Jmeter\apache-jmeter-3.2\apache-jmeter-3.2\bin'
-2018-05-09 11:55:29,025 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
-2018-05-09 11:55:29,025 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler
-2018-05-09 11:55:29,489 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer
-2018-05-09 11:55:29,544 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.visualizers.BSFListener
-2018-05-09 11:55:29,793 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2018-05-09 11:55:29,793 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2018-05-09 11:55:29,793 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2018-05-09 11:55:29,794 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2018-05-09 11:55:38,546 INFO o.a.j.g.a.Load: Loading file: C:\Users\svasileva\Documents\_PassItOns\Jmeter\Test1.jmx
-2018-05-09 11:55:38,546 INFO o.a.j.s.FileServer: Set new base='C:\Users\svasileva\Documents\_PassItOns\Jmeter'
-2018-05-09 11:55:38,662 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2018-05-09 11:55:38,712 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
-2018-05-09 11:55:38,713 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2018-05-09 11:55:38,715 INFO o.a.j.s.SaveService: Loading file: C:\Users\svasileva\Documents\_PassItOns\Jmeter\Test1.jmx
-2018-05-09 11:55:38,746 WARN o.a.j.g.a.Load: Unexpected error. java.lang.IllegalArgumentException: Problem loading XML from:'C:\Users\svasileva\Documents\_PassItOns\Jmeter\Test1.jmx', missing class com.thoughtworks.xstream.converters.ConversionException: 
----- Debugging information ----
-cause-exception     : com.thoughtworks.xstream.converters.ConversionException
-cause-message       : 
-first-jmeter-class  : org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67)
-class               : org.apache.jmeter.save.ScriptWrapper
-required-type       : org.apache.jorphan.collections.ListedHashTree
-converter-type      : org.apache.jmeter.save.ScriptWrapperConverter
-path                : /jmeterTestPlan/hashTree/hashTree/hashTree[3]/hashTree/com.atlantbh.jmeter.plugins.jsonutils.jsonpathextractor.JSONPathExtractor
-line number         : 99
-version             : 3.2 r1790748
--------------------------------
-java.lang.IllegalArgumentException: Problem loading XML from:'C:\Users\svasileva\Documents\_PassItOns\Jmeter\Test1.jmx', missing class com.thoughtworks.xstream.converters.ConversionException: 
----- Debugging information ----
-cause-exception     : com.thoughtworks.xstream.converters.ConversionException
-cause-message       : 
-first-jmeter-class  : org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67)
-class               : org.apache.jmeter.save.ScriptWrapper
-required-type       : org.apache.jorphan.collections.ListedHashTree
-converter-type      : org.apache.jmeter.save.ScriptWrapperConverter
-path                : /jmeterTestPlan/hashTree/hashTree/hashTree[3]/hashTree/com.atlantbh.jmeter.plugins.jsonutils.jsonpathextractor.JSONPathExtractor
-line number         : 99
-version             : 3.2 r1790748
--------------------------------
-	at org.apache.jmeter.save.SaveService.readTree(SaveService.java:457) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at org.apache.jmeter.save.SaveService.loadTree(SaveService.java:425) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:130) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:102) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at org.apache.jmeter.gui.action.Load.doActionAfterCheck(Load.java:89) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:45) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:74) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:59) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at java.awt.event.InvocationEvent.dispatch(Unknown Source) [?:?]
-	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:?]
-	at java.awt.EventQueue.access$600(Unknown Source) [?:?]
-	at java.awt.EventQueue$4.run(Unknown Source) [?:?]
-	at java.awt.EventQueue$4.run(Unknown Source) [?:?]
-	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
-	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:?]
-	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:?]
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:?]
-	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:?]
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:?]
-	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:?]
-	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:?]
-	at java.awt.EventDispatchThread.run(Unknown Source) [?:?]
-Caused by: com.thoughtworks.xstream.converters.ConversionException: 
----- Debugging information ----
-cause-exception     : com.thoughtworks.xstream.converters.ConversionException
-cause-message       : 
-first-jmeter-class  : org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67)
-class               : org.apache.jmeter.save.ScriptWrapper
-required-type       : org.apache.jorphan.collections.ListedHashTree
-converter-type      : org.apache.jmeter.save.ScriptWrapperConverter
-path                : /jmeterTestPlan/hashTree/hashTree/hashTree[3]/hashTree/com.atlantbh.jmeter.plugins.jsonutils.jsonpathextractor.JSONPathExtractor
-line number         : 99
-version             : 3.2 r1790748
--------------------------------
-	at org.apache.jmeter.save.ScriptWrapperConverter.createConversionException(ScriptWrapperConverter.java:103) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at org.apache.jmeter.save.ScriptWrapperConverter.unmarshal(ScriptWrapperConverter.java:97) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:70) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:134) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1230) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1214) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1085) ~[xstream-1.4.9.jar:1.4.9]
-	at org.apache.jmeter.save.SaveService.readTree(SaveService.java:442) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	... 21 more
-Caused by: com.thoughtworks.xstream.converters.ConversionException: 
----- Debugging information ----
-cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
-cause-message       : com.atlantbh.jmeter.plugins.jsonutils.jsonpathextractor.JSONPathExtractor
-class               : org.apache.jorphan.collections.ListedHashTree
-required-type       : org.apache.jorphan.collections.ListedHashTree
-converter-type      : org.apache.jmeter.save.converters.HashTreeConverter
-path                : /jmeterTestPlan/hashTree/hashTree/hashTree[3]/hashTree/com.atlantbh.jmeter.plugins.jsonutils.jsonpathextractor.JSONPathExtractor
-line number         : 99
--------------------------------
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:79) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:70) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:73) ~[xstream-1.4.9.jar:1.4.9]
-	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:70) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:73) ~[xstream-1.4.9.jar:1.4.9]
-	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:70) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:73) ~[xstream-1.4.9.jar:1.4.9]
-	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:70) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.9.jar:1.4.9]
-	at org.apache.jmeter.save.ScriptWrapperConverter.unmarshal(ScriptWrapperConverter.java:95) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:70) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:134) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1230) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1214) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1085) ~[xstream-1.4.9.jar:1.4.9]
-	at org.apache.jmeter.save.SaveService.readTree(SaveService.java:442) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	... 21 more
-Caused by: com.thoughtworks.xstream.mapper.CannotResolveClassException: com.atlantbh.jmeter.plugins.jsonutils.jsonpathextractor.JSONPathExtractor
-	at com.thoughtworks.xstream.mapper.DefaultMapper.realClass(DefaultMapper.java:81) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.DynamicProxyMapper.realClass(DynamicProxyMapper.java:55) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.PackageAliasingMapper.realClass(PackageAliasingMapper.java:88) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(ClassAliasingMapper.java:79) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.ArrayMapper.realClass(ArrayMapper.java:74) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.SecurityMapper.realClass(SecurityMapper.java:71) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at org.apache.jmeter.save.SaveService$XStreamWrapper$1.realClass(SaveService.java:97) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.mapper.CachingMapper.realClass(CachingMapper.java:47) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.util.HierarchicalStreams.readClassType(HierarchicalStreams.java:29) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:72) ~[xstream-1.4.9.jar:1.4.9]
-	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:70) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:73) ~[xstream-1.4.9.jar:1.4.9]
-	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:70) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:73) ~[xstream-1.4.9.jar:1.4.9]
-	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:70) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:73) ~[xstream-1.4.9.jar:1.4.9]
-	at org.apache.jmeter.save.converters.HashTreeConverter.unmarshal(HashTreeConverter.java:67) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:70) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.9.jar:1.4.9]
-	at org.apache.jmeter.save.ScriptWrapperConverter.unmarshal(ScriptWrapperConverter.java:95) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:72) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:70) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:66) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:50) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:134) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1230) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1214) ~[xstream-1.4.9.jar:1.4.9]
-	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1085) ~[xstream-1.4.9.jar:1.4.9]
-	at org.apache.jmeter.save.SaveService.readTree(SaveService.java:442) ~[ApacheJMeter_core.jar:3.2 r1790748]
-	... 21 more
-2018-05-09 12:00:22,383 INFO o.a.j.g.a.Load: Loading file: C:\Users\svasileva\Documents\_PassItOns\Jmeter\Test1.jmx
-2018-05-09 12:00:22,384 INFO o.a.j.s.FileServer: Set new base='C:\Users\svasileva\Documents\_PassItOns\Jmeter'
-2018-05-09 12:00:22,384 INFO o.a.j.s.SaveService: Loading file: C:\Users\svasileva\Documents\_PassItOns\Jmeter\Test1.jmx
-2018-05-09 12:00:22,561 INFO o.a.j.s.FileServer: Set new base='C:\Users\svasileva\Documents\_PassItOns\Jmeter'
+2018-05-14 17:39:37,432 INFO o.a.j.u.JMeterUtils: Setting Locale to en_GB
+2018-05-14 17:39:37,489 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-05-14 17:39:37,491 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-05-14 17:39:37,506 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-05-14 17:39:37,507 INFO o.a.j.JMeter: Version 3.2 r1790748
+2018-05-14 17:39:37,507 INFO o.a.j.JMeter: java.version=10
+2018-05-14 17:39:37,507 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-05-14 17:39:37,507 INFO o.a.j.JMeter: os.name=Windows 10
+2018-05-14 17:39:37,507 INFO o.a.j.JMeter: os.arch=amd64
+2018-05-14 17:39:37,507 INFO o.a.j.JMeter: os.version=10.0
+2018-05-14 17:39:37,507 INFO o.a.j.JMeter: file.encoding=Cp1252
+2018-05-14 17:39:37,507 INFO o.a.j.JMeter: Max memory     =4259315712
+2018-05-14 17:39:37,508 INFO o.a.j.JMeter: Available Processors =4
+2018-05-14 17:39:37,522 INFO o.a.j.JMeter: Default Locale=English (United Kingdom)
+2018-05-14 17:39:37,522 INFO o.a.j.JMeter: JMeter  Locale=English (United Kingdom)
+2018-05-14 17:39:37,522 INFO o.a.j.JMeter: JMeterHome=C:\Users\svasileva\Documents\GitHub\Jmeter-task\apache-jmeter-3.2\apache-jmeter-3.2
+2018-05-14 17:39:37,522 INFO o.a.j.JMeter: user.dir  =C:\Users\svasileva\Documents\GitHub\Jmeter-task\apache-jmeter-3.2\apache-jmeter-3.2\bin
+2018-05-14 17:39:37,523 INFO o.a.j.JMeter: PWD       =C:\Users\svasileva\Documents\GitHub\Jmeter-task\apache-jmeter-3.2\apache-jmeter-3.2\bin
+2018-05-14 17:39:37,525 INFO o.a.j.JMeter: IP: 172.18.53.28 Name: EN719073 FullName: EN719073.endava.net
+2018-05-14 17:39:38,094 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform]
+2018-05-14 17:39:38,098 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2018-05-14 17:39:38,816 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-05-14 17:39:38,817 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-05-14 17:39:40,267 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.assertions.BSFAssertion
+2018-05-14 17:39:41,163 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.extractor.BSFPostProcessor
+2018-05-14 17:39:41,232 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.modifiers.BSFPreProcessor
+2018-05-14 17:39:41,310 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-05-14 17:39:41,310 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-05-14 17:39:41,310 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-05-14 17:39:41,310 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-05-14 17:39:41,310 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-05-14 17:39:41,310 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-05-14 17:39:42,686 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2018-05-14 17:39:42,687 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\svasileva\Documents\GitHub\Jmeter-task\apache-jmeter-3.2\apache-jmeter-3.2\bin\proxyserver.jks
+2018-05-14 17:39:43,194 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler
+2018-05-14 17:39:43,383 INFO o.a.j.s.FileServer: Default base='C:\Users\svasileva\Documents\GitHub\Jmeter-task\apache-jmeter-3.2\apache-jmeter-3.2\bin'
+2018-05-14 17:39:43,580 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2018-05-14 17:39:43,580 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler
+2018-05-14 17:39:44,148 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer
+2018-05-14 17:39:44,318 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.visualizers.BSFListener
+2018-05-14 17:39:44,715 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-05-14 17:39:44,718 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-05-14 17:39:44,718 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-05-14 17:39:44,719 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-05-14 17:42:37,432 INFO o.a.j.g.a.Load: Loading file: C:\Users\svasileva\Documents\_PassItOns\Jmeter\Test1.jmx
+2018-05-14 17:42:37,432 INFO o.a.j.s.FileServer: Set new base='C:\Users\svasileva\Documents\_PassItOns\Jmeter'
+2018-05-14 17:42:37,629 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-05-14 17:42:37,654 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2018-05-14 17:42:37,658 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-05-14 17:42:37,661 INFO o.a.j.s.SaveService: Loading file: C:\Users\svasileva\Documents\_PassItOns\Jmeter\Test1.jmx
+2018-05-14 17:42:37,902 INFO o.a.j.s.FileServer: Set new base='C:\Users\svasileva\Documents\_PassItOns\Jmeter'
+2018-05-14 17:59:59,065 INFO o.a.j.g.a.Load: Loading file: C:\Users\svasileva\Documents\GitHub\Jmeter-task\Test1.jmx
+2018-05-14 17:59:59,065 INFO o.a.j.s.FileServer: Set new base='C:\Users\svasileva\Documents\GitHub\Jmeter-task'
+2018-05-14 17:59:59,065 INFO o.a.j.s.SaveService: Loading file: C:\Users\svasileva\Documents\GitHub\Jmeter-task\Test1.jmx
+2018-05-14 17:59:59,114 INFO o.a.j.s.FileServer: Set new base='C:\Users\svasileva\Documents\GitHub\Jmeter-task'
+2018-05-14 18:00:03,008 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-05-14 18:00:03,008 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-05-14 18:00:03,008 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-05-14 18:00:03,028 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-05-14 18:00:03,110 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Users
+2018-05-14 18:00:03,110 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Users.
+2018-05-14 18:00:03,110 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-05-14 18:00:03,110 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-05-14 18:00:03,130 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-05-14 18:00:03,130 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-05-14 18:00:03,132 INFO o.a.j.t.JMeterThread: Thread started: Users 1-1
+2018-05-14 18:00:03,132 INFO o.a.j.p.h.s.HTTPJavaImpl: Maximum connection retries = 0
+2018-05-14 18:00:03,132 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-05-14 18:00:03,132 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-05-14 18:00:03,236 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-05-14 18:00:03,241 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-05-14 18:00:03,241 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-05-14 18:00:03,888 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = EN719073
+2018-05-14 18:00:03,891 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-05-14 18:00:04,057 INFO o.a.j.t.JMeterThread: Thread is done: Users 1-1
+2018-05-14 18:00:04,058 INFO o.a.j.t.JMeterThread: Thread finished: Users 1-1
+2018-05-14 18:00:04,059 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-05-14 18:00:04,082 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
